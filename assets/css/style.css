@@ -1,0 +1,92 @@
+body {
+  background-color:#EDEFEB;
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+.box {
+  border-radius: 20px;
+  background-color: #F9F9F8;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+.box_objects {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-radius: 10px;
+  background-color: #F9F9F8;
+  margin: 0 10px;
+  padding: 0;
+  /*box-shadow: 2px 2px 2px lightgrey;*/
+}
+
+.box_emissions{
+  border-radius: 20px;
+  background-color: #e9a8538e;
+  margin: 2px;
+  box-shadow: 2px 2px 2px lightgrey;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
+
+div#dash-uploader {
+  min-height: auto !important;
+  line-height: normal !important;
+}
+
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between
+}
+
+/* Turn off existing buttons */
+.radio-group .custom-control-input ~ .custom-control-label::before {
+  content: none;
+}
+
+.radio-group .custom-radio .custom-control-input ~ .custom-control-label::after {
+  content: none;
+}
+
+/* restyle radio items */
+.radio-group .custom-control {
+  padding-left: 0;
+}
+
+.radio-label {
+  /*display: table-caption;*/
+  background-color: #F9F9F8;
+  padding: 5px 45px;
+  /*font-size: 16px;*/
+  color: #4b9072;
+  border: 2px solid #4b9072;
+  border-radius: 10px;
+  /*!*width: 100%;*!*/
+  /*text-align: center;*/
+}
+
+.radio-checked {
+  background-color: #4b9072;
+  color: #F9F9F8;
+  border: 2px solid #F9F9F8;
+}
+
+/* Scrollbars */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #EDEFEB;
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#ebb36abf;
+  border-radius: 20px;
+  border: 3px solid #EDEFEB;
+}
+
+
